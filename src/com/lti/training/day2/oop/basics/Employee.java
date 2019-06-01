@@ -5,7 +5,7 @@ public class Employee {
 	private String name;
 	private String dateOfJoining;
 	private double salary;
-	//has a relationship-asssociation
+	//has_a_relationship-association
 	//one to one association
 	private Passport passport;
 	private AadharCard aadharCard;
