@@ -46,6 +46,19 @@ public class Employee {
 		this.aadharCard = aadharCard;
 	}
 	
+	public void displayInfo() {
+		
+		
 	
+		System.out.println(empno);
+		System.out.println(salary);
+	
+		System.out.println(name);
+	   	System.out.println(passport.getPassportNo());
+	 	System.out.println(passport.getNameOfThePerson());
+	 	System.out.println(passport.getExpiryDate());
+
+	
+	}
 
 }

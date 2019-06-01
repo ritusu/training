@@ -21,18 +21,21 @@ public static void main(String[] args) {
      a.setAddress("mumbai");
 	 
 	 e.setAadharCard(a);
-	 
-   	System.out.println("passport no is:" +p.getPassportNo());
- 	System.out.println(p.getNameOfThePerson());
- 	System.out.println(p.getExpiryDate());
-   	System.out.println(p.getIssueDate()); 
-   	System.out.println(a.getAadharNo());
-	System.out.println(a.getName());
-	System.out.println(a.getAddress());
-  	System.out.println(e.getEmpno());
-	System.out.println(e.getName());
+	 e.displayInfo();
+/*	 
 	System.out.println(e.getDateOfJoining());
 	System.out.println(e.getSalary());
+	System.out.println(e.getEmpno());
+	System.out.println(e.getName());
+   	System.out.println(e.getPassport().getPassportNo());
+ 	System.out.println(e.getPassport().getNameOfThePerson());
+ 	System.out.println(e.getPassport().getExpiryDate());
+   	System.out.println(e.getAadharCard(). getIssueDate()); 
+   	System.out.println(a.getAadharCard().getAadharNo());
+	System.out.println(a.getAadharCard().getName());
+	System.out.println(a.getAadharCard().getAddress());
+*/
+
 	
 }
 
