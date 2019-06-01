@@ -27,6 +27,11 @@ public class App {
     	//this helps us in logging since the function is called.
       	//this logging code can be written in getters and setters.
     	
+      	//aadahar card objects
+      	AadharCard ac= new AadharCard(123,"ritu","mumbai");
+      	System.out.println(ac.getAadharNo());
+    	System.out.println(ac.getName());
+    	System.out.println(ac.getAddress());
     
 	}
 }
